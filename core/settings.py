@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'monapp',
 ]
 
 MIDDLEWARE = [
@@ -76,7 +77,7 @@ WSGI_APPLICATION = 'core.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'jeanbaptistemarrec',  # This must match the database you created
+        'NAME': 'admin',  # This must match the database you created
         'USER': 'djangotemplatesuser',
         'PASSWORD': 'password',
         'HOST': 'localhost',
